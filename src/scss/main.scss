@@ -1,0 +1,21 @@
+@import './base/variables',
+'./base/mixins';
+
+// Vendors
+@import './vendors/bootstrap/bootstrap';
+
+// Bem example
+.page {
+
+  &__title {
+    text-align: center;
+
+    &--color-red {
+      color: $red;
+    }
+
+    &--bold {
+      font-weight: bold;
+    }
+  }
+}
